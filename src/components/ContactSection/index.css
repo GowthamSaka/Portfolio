@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+
+.location-image {
+  max-width: 80%;
+  height: 280px;
+}
+
+@media screen and (min-width: 768px) {
+  .location-image {
+    width: 250px;
+  }
+}
+
+.contact-description {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.contact-information {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 2px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-information {
+    font-size: 18px;
+  }
+}
+
+.contact-number {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.email {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
